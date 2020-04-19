@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ameer Kiani's Portal Page</title>
+    
+ <style>
+    
+     
+     body{
+         background:black;
+         font-family:Verdana, helvetica, arial, sans-serif;
+         background-image:url(images/background.jpg);
+/*The default behavior of a background image is to repeat*/
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size:  cover;
+     }
+     
+     h1,h2 {
+         margin-bottom:9px;
+         font-family:arial, "Times New Roman", Times, serif;
+         background:rgba(230,230,250 ,1 );
+         text-align: center;
+     }
+     
+     h3 {
+         margin-bottom:9px;
+         font-family:arial, "Times New Roman", Times, serif;
+         background:rgba(230,230,250 ,1 );
+     }
+     
+/*This color represents red in hexadecimal*/
+/*My h1 AND h3 will display the color red*/
+     h1 {
+        color:blueviolet;
+     }
+     
+     h1 {
+/*      text-align: center;   (avoid using this)   */
+     }
+     
+     h2{
+        color:blueviolet;
+     }
+     
+     h3 {
+         color:blueviolet;;
+     }
+     
+     div#wrapper {
+         width:940px;
+         background:rgba(138,43,226 ,1 );
+         margin:40px auto 40px auto;
+/*To center a block level element (div) you must use margin right and left of auto*/
+/*top, right, bottom, left  (trbl)*/
+         padding:20px;
+         
+     }
+     
+     img {
+         width:300px;
+         float:right;
+         padding:15px;
+         margin-left:30px;
+/* when you have a 2 word property, the 2 word property must be seperated with a hyphen */
+/* margin and padding look the same, however, they are different */
+/* margin is the space outside and padding is the space inside */
+         border:black solid 3px;
+         background:white;
+     }
+     
+     
+     ul{
+         margin:0 0 10px 30px; /*top, right, bottom, left*/
+     }
+     
+     a {
+         color:rgb(0,0,139);
+     }
+    
+</style>
+
+    
+</head>
+    
+<body id="top">
+    
+    <div id="wrapper">
+    
+    <h1>Ameer Kiani's Portal Page at Seattle Central</h1>
+    
+    <h2>WEB 110 Winter 2020</h2>
+    
+    <img src="images/ameer-2.jpg" alt="Ameer Kiani" >
+    
+<!--  The strong and bold tags are nested inside the paragraph  -->
+        <p>Ciao everyone! My name is <b>Ameer Kiani</b>. I was born in Islamabad, Pakistan to an American mother and a Pakistani father. I moved to Seattle in April 2019. This is my first quarter here at SCC. <i>After working with several non-profit organizations and studying business administration, I have decided to make a career change.</i> It may seem daunting at first to jump into a new field but I am excited for the new possibilities.</p>
+    
+<!--  Do not use break tags! use CSS instead!!  -->
+<!--
+    <br>
+    <br>
+-->
+    
+    <p>As this is my first quarter, I am not exactly sure which field of computer science I want to focus on. So far I like web development as I previously used to run some websites and message boards in my teens. Some of my hobbies are watching TV shows, reading graphic novels, and going to the gym.  </p>
+     
+    
+<!--  hr stands for horizontal rule and it does not close, it is self closing like the image tag.  -->
+    <hr>
+        
+<!--  This is a comment  -->
+<!--Never write anything outside of the list item tags-->
+
+    
+    <h3>Assignments</h3>
+    
+    <ul>
+<!--   We are nesting an anchor tag inside the list item tag     -->
+        <li><a href="index.html">Homework 1: Portal</a>
+        <li><a href="strange/strange.html">Homework 2: Stranger Things</a></li>
+        <li><a href="big/index.html">Homework 3: Big</a></li>
+        <li><a href="practical_test.html">Practical Test</a></li>
+        <li><a href="wireframe/wireframe.html">Homework 4: Wireframe And Site Map</a></li>
+        <li><a href="form/form.html">Homework 5: Form</a></li>
+        <li><a href="template/index.html">Homework 6: Template</a></li>
+        <li><a href="final/index.html">Final Project: Kiani Fitness</a></li>
+    </ul>
+        
+    <p><b><a href="https://validator.w3.org/check?uri=referer">Valid</a></b></p>
+        
+    </div>
+        
+</body>
+</html>
