@@ -23,6 +23,3 @@
 <!-- END RIGHT COL -->
  
 <?php include "includes/footer.php";?>
-
-
-
